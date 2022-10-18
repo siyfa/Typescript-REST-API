@@ -105,6 +105,7 @@ dist
 
 #package file
 package-lock.json
+tsconfig.json
 
 #other files
-./config/default.ts
+config/default.ts
