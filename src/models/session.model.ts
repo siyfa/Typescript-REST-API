@@ -16,8 +16,8 @@ const sessionSchema = new mongoose.Schema({
         ref: 'User'
     },
     valid: {
-        types: Boolean,
-        default: false
+        type: Boolean,
+        default: true
     },
     userAgent: {
         type: String
